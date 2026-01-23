@@ -23,29 +23,34 @@
 ```
 
 Data_Analysis
-├─ data/
-│  ├─ bronze/       # 원시 데이터 (Raw)
-│  ├─ silver/       # 정제/전처리 데이터 (Processed)
-│  └─ gold/         # 최종 비즈니스/보고용 데이터 (Curated)
+├─ XXX_FolderName
+│   ├─ data/
+│   │  ├─ bronze/       # 원시 데이터 (Raw)
+│   │  ├─ silver/       # 정제/전처리 데이터 (Processed)
+│   │  └─ gold/         # 최종 비즈니스/보고용 데이터 (Curated)
+│   │
+│   ├─ governance/
+│   │  ├─ catalog/      # 데이터 카탈로그 (메타데이터, 데이터셋 정의)
+│   │  ├─ lineage/      # 데이터 계보(Lineage), ETL 흐름 문서화
+│   │  ├─ quality/      # 데이터 품질 규칙, 검증 리포트
+│   │  └─ policy/       # 접근 권한, 보안, 컴플라이언스 정책
+│   │
+│   ├─ notebooks/       # 탐색/분석용 노트북
+│   │
+│   ├─ powerbi/
+│   │  ├─ dashboards/   # Power BI 대시보드 (.pbix)
+│   │  └─ datasets/     # Power BI용 데이터 모델
+│   │
+│   ├─ docs/
+│   │  ├─ private/     # 내부 전용 문서 (기밀, 상세 분석, 기술적 설명)
+│   │  ├─ public/      # 외부 공유 문서 (이해관계자에게 공유 가능한 수준)
+│   │  ├─ appendix/    # 추가자료 (부록, 보조 설명)
+│   │  └─ Image/       # 보고서용 시각화 결과물
+│   │
+│   ├─ Release.md
+│   └─ Usage_Guide.md
 │
-├─ governance/
-│  ├─ catalog/      # 데이터 카탈로그 (메타데이터, 데이터셋 정의)
-│  ├─ lineage/      # 데이터 계보(Lineage), ETL 흐름 문서화
-│  ├─ quality/      # 데이터 품질 규칙, 검증 리포트
-│  └─ policy/       # 접근 권한, 보안, 컴플라이언스 정책
-│
-├─ notebooks/       # 탐색/분석용 노트북
-│
-├─ powerbi/
-│  ├─ dashboards/     # Power BI 대시보드 (.pbix)
-│  └─ datasets/       # Power BI용 데이터 모델
-│
-├─ docs/
-│  ├─ private/     # 내부 전용 문서 (기밀, 상세 분석, 기술적 설명)
-│  ├─ public/      # 외부 공유 문서 (이해관계자에게 공유 가능한 수준)
-│  ├─ appendix/    # 추가자료 (부록, 보조 설명)
-│  └─ Image/       # 보고서용 시각화 결과물
-│
+├─ LICENSE
 └─ README.md
 
 ```
