@@ -1,7 +1,26 @@
 {
   "permissions": {
     "allow": [
-      "Bash(find . -name \"*.csv\" -exec sh -c 'mv \"\"$1\"\" ../data/bronze/$\\(basename \"\"$1\"\"\\)' _ {} ;)"
+      "Bash(find . -name \"*.csv\" -exec sh -c 'mv \"\"$1\"\" ../data/bronze/$\\(basename \"\"$1\"\"\\)' _ {} ;)",
+      "Bash(chmod:*)",
+      "Bash(wc:*)",
+      "Bash(ls:*)",
+      "Bash(tree:*)",
+      "Bash(pip install:*)",
+      "Bash(copy .env.example .env)",
+      "Bash(streamlit run:*)",
+      "Bash(python:*)",
+      "Bash(tasklist:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(timeout:*)",
+      "Bash(ping:*)",
+      "Bash(source venv/Scripts/activate)",
+      "Bash(streamlit config:*)",
+      "Bash(curl:*)",
+      "Bash(git add:*)",
+      "Bash(git push:*)",
+      "Bash(git filter-branch:*)"
     ]
   }
 }

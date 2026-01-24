@@ -37,15 +37,19 @@ Data_Analysis
 │   │
 │   ├─ notebooks/       # 탐색/분석용 노트북
 │   │
-│   ├─ powerbi/
+│   ├─ powerbi/   # PowerBI 산출물(직접 작성)
 │   │  ├─ dashboards/   # Power BI 대시보드 (.pbix)
 │   │  └─ datasets/     # Power BI용 데이터 모델
 │   │
-│   ├─ docs/
+│   ├─ docs/      # 사용자 산출물(직접 작성)
 │   │  ├─ private/     # 내부 전용 문서 (기밀, 상세 분석, 기술적 설명)
 │   │  ├─ public/      # 외부 공유 문서 (이해관계자에게 공유 가능한 수준)
 │   │  ├─ appendix/    # 추가자료 (부록, 보조 설명)
 │   │  └─ Image/       # 보고서용 시각화 결과물
+│   │
+│   ├─ src/       # app, client .. 파일
+│   │
+│   ├─ tests/     # 테스트 파일
 │   │
 │   ├─ Release.md
 │   └─ USER_Guide.md

@@ -1,0 +1,27 @@
+# Maritime Communication Simulator 2030 - Dependencies
+# =====================================================
+# Python 3.10+ 호환 (3.13 포함)
+
+# Web Framework
+streamlit>=1.31.0
+streamlit-folium>=0.16.0
+
+# Data Processing (최신 버전 사용)
+numpy>=1.26.0
+pandas>=2.1.0
+scipy>=1.11.0
+
+# Geospatial
+geopy>=2.4.0
+shapely>=2.0.0
+folium>=0.15.0
+
+# Visualization
+plotly>=5.18.0
+
+# WebSocket Communication
+websockets>=12.0
+aiohttp>=3.9.0
+
+# Utilities
+python-dotenv>=1.0.0
