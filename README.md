@@ -48,7 +48,7 @@ Data_Analysis
 │   │  └─ Image/       # 보고서용 시각화 결과물
 │   │
 │   ├─ Release.md
-│   └─ Usage_Guide.md
+│   └─ USER_Guide.md
 │
 ├─ LICENSE
 └─ README.md
