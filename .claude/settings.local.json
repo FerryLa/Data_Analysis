@@ -20,7 +20,13 @@
       "Bash(curl:*)",
       "Bash(git add:*)",
       "Bash(git push:*)",
-      "Bash(git filter-branch:*)"
+      "Bash(git filter-branch:*)",
+      "Bash(git reset:*)",
+      "Bash(git config:*)",
+      "Bash(java -jar bfg.jar:*)",
+      "Bash(git gc:*)",
+      "Bash(git repack:*)",
+      "Bash(git reflog:*)"
     ]
   }
 }
